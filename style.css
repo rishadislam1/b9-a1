@@ -1,0 +1,263 @@
+.upperbody {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.happynewyear {
+  margin-top: 20px;
+  border-radius: 15px;
+  background-image: url("./images/Banner Image.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font: bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.percentoff {
+  margin-top: 20px;
+}
+
+.sixtyFive {
+  color: red;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+
+.holiday {
+  color: red;
+  text-align: center;
+}
+
+.category {
+  text-align: center;
+  font-size: 40px;
+}
+
+.newyearimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happynewyearjoin {
+  margin-top: 40px;
+  border-radius: 15px;
+  background-image: url("./images/Vectorrr.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  font: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.happynewyearjoinFirst {
+  width: 50%;
+}
+
+.joinnow {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.newPark {
+  background-image: linear-gradient(#ffecec, white);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  border-radius: 15px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.place {
+  color: red;
+  font-weight: 900;
+}
+
+.joinNow {
+  background-color: red;
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.coming {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 90px;
+  align-items: center;
+}
+
+.newbestoffer {
+  color: red;
+}
+
+.commingimage {
+  border: 3px solid red;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.coming p {
+  width: 80%;
+}
+
+.holidaySales {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.holidaySales p {
+  width: 40%;
+  text-align: center;
+}
+
+.fiftypercentoff {
+  width: 100%;
+  height: 800px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.bestgift {
+  margin-top: 50px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.portfolioPicture {
+  width: 420px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolioPicture img {
+  transition: all 0.4s ease-in-out;
+}
+
+.portfolioPicture img:hover {
+  transform: scale(1.5);
+}
+
+.newsletter {
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: #fff2f2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font: bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.newsletter p {
+  width: 50%;
+}
+
+.subscribetext {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border: none;
+  width: 250px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.subscribebutton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  width: 150px;
+  background-color: red;
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.displayicons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  border: 1px solid rgb(34, 34, 34);
+}
+
+.footermiddle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footermiddle img {
+  width: 50px;
+}
+
+.footerbottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
